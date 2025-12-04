@@ -9,6 +9,11 @@
         path = ./base;
         description = "A good starting point for a flake";
       };
+
+      rust = {
+        path = ./rust;
+        description = "A Rust flake";
+      };
     };
   };
 }
